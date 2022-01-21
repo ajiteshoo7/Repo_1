@@ -90,8 +90,18 @@ h2{
     float: left;
     margin-right: 1rem;
 }
+#footer{
+    position: relative;
+}
 .heading{
     width: 75%;
     position: relative;
     top: 4rem;
+}
+.heading2{
+    clear: both;
+    
+    position: absolute;
+    top:8rem;
+    left: 22rem;
 }
