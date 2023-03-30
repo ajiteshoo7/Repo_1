@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <style type="text/css">
+        body {
+            background-color: #f0f0f2;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+
+        div {
+            width: 600px;
+            margin: 5em auto;
+            padding: 2em;
+            background-color: #fdfdff;
+            border-radius: 0.5em;
+            box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+        }
+
+        @media (max-width: 700px) {
+            div {
+                margin: 0 auto;
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="TOP">
+        <h1>H1 to H6</h1>
+        <strong>Header Tag demo!</strong>
+        <h2>Little smaller then h1.</h2>
+        <h3>Again smaller then a h2.</h3>
+        <h4>I do not know when we use this.😁</h4>
+        <hr>
+        <em><u>Demo(Italics or emphasis)</u></em>
+        <p>
+            <sup>Ajitesh (Supersciript)</sup>Benerjee <br>
+            <sub>Ajitesh(Subsciript)</sub>Benerjee
+        </p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna
+            aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <br>Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </header>
+    <hr>
+    <div id="list">
+        <h2>Un-ordered list</h2>
+        <ul>
+            <li>Food</li>
+            <em>
+                <li>Gas</li>
+            </em>
+            <li>travel</li>
+        </ul>
+        <h2>Ordered list</h2>
+        <p>Can use start, reverse and type for these lists.</p>
+        <ol type="I">
+            <strong>
+                <li>Food</li>
+            </strong>
+            <del>
+                <li>Gas</li>
+            </del>
+            <li>travel</li>
+        </ol>
+    </div>
+
+    <div id="images">
+        <h2>How to user images!</h2>
+        <h3>Can use width to adjust the size.</h3>
+        <img src="https://th.bing.com/th/id/OIP.YTt0PDjd2PrNAYESRPXS_AHaB_?pid=ImgDet&rs=1" alt="Logo" width="150"
+            title="Logo">
+
+    </div>
+    <hr>
+    <div id="forms">
+        <h2>How to use forms.</h2>
+        <form action="">
+            Username:<input type="text" placeholder="Username"> <br>
+            Age above 18:<input type="checkbox"> <br>
+            Password:<input type="password"> <br>
+            Current City:<select name="" id="">
+
+                <option value="">Indore</option>
+                <option value="" selected>Bhopal</option>
+                <option value="">Jalbalpur</option>
+            </select> <br>
+            <input type="button" value="Submit">
+        </form>
+
+    </div>
+    <hr>
+    <div>
+        <h2>How to user tables in html.</h2>
+        <table>
+            <!-- table head div -->
+            <thead>
+                <tr>
+                    <!-- to assign heading -->
+                    <th>Name</th>
+                    <th>Name-2</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <!-- table row -->
+                <tr>
+                    <!-- table data -->
+                    <td>Ajitesh</td>
+                    <td>Khaggu</td>
+                </tr>
+                <!-- table row -->
+                <tr>
+                    <!-- table data -->
+                    <td>Khaggu</td>
+                    <td>Ajitesh</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <hr>
+    <div>
+        <h2>Magic of links!</h2>
+        <strong>
+            <p>Using anchor tag.</p>
+        </strong>
+        <p><a href="https://ajitesh19.w3spaces.com/" target="_blank">Resume</a></p>
+        <p><a href="#TOP"><button>Go up</button></a></p>
+    </div>
+    <hr>
+    <div id="entity">
+        <h2>How to show html entities.</h2>
+        <strong>To show specific symbols and codes.</strong>
+        &copy;
+
+    </div>
+    <hr>
+    <div id="video_audio">
+        <h2>To use video and audio on the same page</h2>
+        <video width="320" controls>
+            <source src="D:\Web_Dev_3.0_Rob\Asset\SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+            Please upgrade your browser.
+        </video>
+        <br>
+        <audio controls>
+            <source src="D:\Web_Dev_3.0_Rob\Asset\SampleVideo_1280x720_1mb.mp4" type="audio/mp3">
+            Please upgrade your browser.
+        </audio>
+
+    </div>
+</body>
+
+</html>
