@@ -1,0 +1,11 @@
+
+
+#section{
+    width: 50%;
+   position: relative;
+   left: 1000px;
+}
+#section2 {
+    width: 40%;
+    float: left;
+}
